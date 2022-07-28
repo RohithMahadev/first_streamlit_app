@@ -5,6 +5,6 @@ st.title("Healthy Diner")
 
 st.header("Breakfast Menu")
 
-st.text("Omega 3 & Blueberry pancakes")
-st.text("Spinach and Rocket Smoothie")
-st.text("Hard Boiled Egg with Bagels ")
+st.text("1. Omega 3 & Blueberry pancakes")
+st.text("2. Spinach and Rocket Smoothie")
+st.text("3. Hard Boiled Egg with Bagels ")
