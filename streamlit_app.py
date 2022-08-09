@@ -31,3 +31,7 @@ my_cur.execute("SELECT * from fruit_load_list")
 my_data_rows = my_cur.fetchall()
 st.header("Fruit load list")
 st.dataframe(my_data_rows)
+
+st.text("Add second fruit")
+add_my_fruit = st.text_input()
+st.text("Thanks for adding"+ add_my_fruit)
