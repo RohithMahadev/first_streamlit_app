@@ -33,5 +33,5 @@ st.header("Fruit load list")
 st.dataframe(my_data_rows)
 
 st.text("Add second fruit")
-add_my_fruit = st.text_input()
-st.text("Thanks for adding", add_my_fruit)
+add_user_choice = st.text_input('What fruit would you like information about?')
+st.write('The user entered ', add_user_choice)
