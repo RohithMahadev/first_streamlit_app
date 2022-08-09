@@ -34,4 +34,4 @@ st.dataframe(my_data_rows)
 
 st.text("Add second fruit")
 add_my_fruit = st.text_input()
-st.text("Thanks for adding"+ add_my_fruit)
+st.text("Thanks for adding", add_my_fruit)
