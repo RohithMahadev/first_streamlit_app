@@ -20,10 +20,6 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 st.dataframe(fruits_to_show)
 
-st.write('The user entered ', fruit_choice)
-
-
-
 st.header("Fruity vice fruit advice")
 try: 
   fruit_choice = st.text_input('What fruit would you like information about?')
