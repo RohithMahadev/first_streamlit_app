@@ -23,7 +23,7 @@ st.dataframe(fruits_to_show)
 def fruit_data():
    fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ fruit_choice)
    fruityvice_normalized = pd.json_normalize(fruityvice_response.json())
-    return fruityvice_normalized
+   return fruityvice_normalized
 
 st.header("Fruity vice fruit advice")
 try: 
